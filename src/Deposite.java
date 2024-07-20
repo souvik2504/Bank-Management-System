@@ -1,11 +1,7 @@
 import java.awt.*;
 import java.awt.event.*;
-import java.util.*;
-import java.sql.*;
 import javax.swing.*;
-import javax.xml.crypto.*;
 import java.util.Date;
-
 public class Deposite extends JFrame implements ActionListener {
     private static final String Deposite = null;
     JTextField amount;

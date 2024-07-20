@@ -88,7 +88,7 @@ public class FastCash extends JFrame implements ActionListener{
            Connect c = new Connect();
            try{
 
-            ResultSet rs = c.s.executeQuery("select * from bank where pin = '"+pinnumber+"'"); 
+            ResultSet rs = c.s.executeQuery("select * from bank where PIN_Number = '"+pinnumber+"'"); 
             int balance = 0;
             while (rs.next()) {
                 if(rs.getTime("Transaction_type").equals("Deposite")){
